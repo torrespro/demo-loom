@@ -2,7 +2,7 @@
 
 [JEP 425: Virtual Threads (Preview)](https://openjdk.java.net/jeps/425) has been proposed recently. It has been a long-awaited feature in Java. 
 
-I wanted to give it a try combined with the [JEP 408: Simple Http Server](https://openjdk.org/jeps/408) feature also recently added So I download the [early release](https://jdk.java.net/loom/) of JDK which has the project loom in it. However, it is under preview. 
+I wanted to give it a try combined with the [JEP 408: Simple Http Server](https://openjdk.org/jeps/408) feature also recently added so I downloaded the [early release](https://jdk.java.net/loom/) of JDK which has the project loom in it. However, it is under preview. 
 
 Looking for some playground for trying Project Loom, the "Simple Web Server" added in Java 18 is perfect for that; it's literally a single line of code for having it use Loom virtual threads.
 
